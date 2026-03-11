@@ -149,6 +149,40 @@ section h1 {
     gap: 5vw;
 }
 
+/* PROJECT */
+#card-container{
+    align-items: center;
+    justify-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 5%;
+    background-color: var(--bg-secondary);
+}
+
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    margin-bottom: 6%;
+}
+
+.cta {
+    background-color: var(--accent);
+    width: 100%;
+    padding: 1.5%;
+    border-radius: 6px;
+    font-size: larger;
+    text-align: center;
+    color: var(--bg-main);
+}
+
 @media screen and (max-width: 768px) {
     #navbar
     {
