@@ -8,6 +8,6 @@ menuIcon.addEventListener('click', () => {
 
 notDone.forEach(link => {
     link.addEventListener('click', () => {
-        alert('Not yet done! First page only.');
+        alert('Not yet done!');
     })
 })

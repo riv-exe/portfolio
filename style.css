@@ -183,6 +183,39 @@ section h1 {
     color: var(--bg-main);
 }
 
+#skills {
+    padding: 3%;
+    background-color: var(--bg-main);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skill-card {
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.skill-card h3 {
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+}
+
+.skill-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skill-card li {
+    margin-bottom: 0.4rem;
+}
+
 @media screen and (max-width: 768px) {
     #navbar
     {
